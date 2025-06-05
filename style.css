@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #fff8f0;
+  border: 1px solid #d2b48c;
+  border-radius: 12px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #5a3e2b;
+}
+
+label {
+  font-weight: bold;
+  color: #5a3e2b;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #c2a27e;
+  border-radius: 6px;
+  background-color: #fdfaf6;
+  font-size: 1em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #d9534f;
+  font-size: 0.85em;
+  margin-top: 5px;
+}
+
+.success {
+  color: #3c763d;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+button {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.button-escape {
+  z-index: 10;
+}

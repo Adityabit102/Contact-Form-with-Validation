@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .thankyou-box {
+      background-color: #fff8f0;
+      border: 1px solid #d2b48c;
+      border-radius: 12px;
+      padding: 40px;
+      text-align: center;
+      color: #5a3e2b;
+      font-size: 1.2em;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      animation: slideDown 0.8s ease-out forwards;
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+
+    @keyframes slideDown {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f1e6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="thankyou-box">
+    <h2>Thank You!</h2>
+    <p>We'll be in touch with you shortly.</p>
+  </div>
+</body>
+</html>
